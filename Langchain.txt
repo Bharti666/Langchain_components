@@ -1,0 +1,42 @@
+What is Langchain?
+LangChain is a Python (and JavaScript) framework that helps developers build 
+applications using language models (like GPT) more easily and more powerfully.
+
+
+🧱 LangChain Key Components
+
+1. Models
+🔹 These are the brains — like GPT-3.5, GPT-4, Claude, etc.
+🔹 LangChain helps you connect to them easily.
+There are further two types of models- Language models and embedded models. 
+Then Language models are also of two types- LLM, and chatmodels.
+
+2. PromptTemplates
+🔹 These are templates for what you send to the model.
+🔹 Helps you reuse and structure prompts.
+
+3. Chains
+🔹 Think of a chain as a pipeline or sequence of steps.
+
+4. Memory
+🔹 Helps your chatbot remember previous messages.
+🔹 Useful for real conversations.
+
+5. Agents
+🔹 These are smart decision-makers.
+🔹 Agents use tools and decide what to do next based on your input.
+
+6. Tools
+🔹 Tools are like skills you give the agent:
+    Search Google
+
+7. Retrievers & Vector Stores
+🔹 These are used for RAG (Retrieval Augmented Generation).
+🔹 Example: Search PDFs or docs to answer user queries.
+
+ 9. Output Parsers (Outputs)
+    Output Parsers in LangChain help convert the raw response from the LLM (usually a long text) into a structured format like:
+    a list
+    a dictionary (JSON)
+
+
